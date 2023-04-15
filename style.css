@@ -624,6 +624,129 @@ a .about-btn{
         padding: 12px;
     }
 
+   /* #about-me body {
+        margin-left: -40px;
+
+
+    } */
+    #about-me{
+        overflow-y: scroll;
+        width: 100%;
+
+        overflow-x: hidden;
+        height: 100%;
+        /* height:400px; */
+        background-color:black;
+        display: flex;
+
+        flex-direction: column;
+        overflow: hidden;
+      
+        margin-left: 30px;
+        border-radius:20px 10px 20px 10px; 
+        box-shadow:5px 5px grey;
+    
+    }
+    .abtfull{
+        margin-left: -40px;
+    }
+    .image{
+        display: flex;
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .image img{
+   
+       justify-content: center;
+
+       image-rendering:optimizeQuality;
+        border-radius: 0 10px;
+        margin: 0 auto;
+    }
+    
+    .image-content{
+        display: flex;
+        flex-direction: column;
+       
+        margin-top: 15px;
+        letter-spacing: 0.5px;
+margin: 0 10px;
+        font-size: 1.5rem;
+    }
+    
+    .image-content p{
+        color:white;
+        font-size: 1.9rem;
+      justify-content: center;
+        
+        
+        flex-wrap:wrap;
+        margin-top: 15px;
+        padding-left: 40px;
+        font-family: -apple-system-short-caption1;
+        
+       
+    
+    }
+    .image-content p span{
+        color:#D3649F;
+        font-style: italic;
+     }
+     .image-content h2{
+           margin-top: -10px;
+           color: white;
+           font-size: 1.4rem;
+
+text-align: center;       
+    padding-left:40px ;
+    /* border-bottom: 1px solid white; */
+           font-family: -apple-system-subheadline;
+     }
+    
+     .image-content h1{
+         color: #D3649F;
+         display: block;
+         font-size: 1.3rem;
+         text-align: center;
+
+         margin-left:85px;
+         /* text-align: center; */
+         font-family: -apple-system-subheadline;
+         margin-top: 10px;
+     }
+    
+     .workbtn{
+        background-color: #D3649F;
+        /* padding: 10px; */
+        border-radius: 7px;
+        text-align: center;
+        align-items: center;
+        /* margin: 0 auto; */
+/* justify-content: center; */
+        color: white;
+     }
+    .wrkbtns{
+        justify-content: center;
+        margin: 0 auto;
+        /* margin: 25px 0; */
+    }
+     .workbtn{
+         margin-top: 10px;
+         /* justify-content: center; */
+         border: none;
+         margin-bottom: 20px;
+     }
+     .workbtn:hover{
+         background-color: #666666;
+     }
+     .skill{
+         justify-content: center;
+         display: flex;
+         flex-direction: column;
+         margin-left: -80px;
+     }
+    
 
 }
 
@@ -682,5 +805,18 @@ a .about-btn{
         font-family: -apple-system-short-caption1;
     }
     
+    .image-content p{
+        color:white;
+        font-size: 1.3rem;
+      justify-content: center;
+        
+        
+        flex-wrap:wrap;
+        margin-top: 15px;
+        padding-left: 40px;
+        font-family: -apple-system-short-caption1;
+        
+       
     
+    }
 }
